@@ -2,9 +2,14 @@
 @font-face {
     font-family: 'Krona One';
     src: url('/fonts/krona-one-latin-400-normal.woff2') format('woff2');
-    /* Especifica la ruta correcta a tu archivo de fuente */
+
     font-weight: normal;
     font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('/fonts/poppins-latin-200-normal.woff2') format('woff2') ;
 }
 
 *{
@@ -118,6 +123,74 @@ body{
     cursor: pointer;
 }
 
+#informacionGeneral{
+    max-width: 100%;
+    padding-top: 96px;
+    display: flex;
+    flex-direction: column;
+    gap:7px;
+    font-family: 'Krona One', sans-serif;
+    align-items: center;
+}
+
+#informacionGeneral h1{
+    width: 554px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0.5px;
+    color: #565656;
+}
+#yellow{color:#FFCD00}
+#blue{color:#003087}
+#red{color:#C8102E}
+
+#informacionGeneral p{
+    margin-top: 8px;
+    width: 554px;
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: large;
+    font-weight: light;
+}
+.botonDocumentacion{
+    margin-top: 16px;
+    border-style: none;
+    background-color: #FFCD00;
+    font-size: 18px;
+    font-family: 'Krona One', sans-serif;
+    text-align: center;
+    width: 266px;
+    height: 54px;
+    color: #22292A;
+
+}
+.botonDocumentacion:hover{cursor: pointer}
+#mariposaGrande{
+    position: absolute;
+ 
+    max-width: 100%; 
+    top: 33%; /* Posicionamiento desde la parte superior (ajustable según necesidades) */
+    left: 70%; /* Posicionamiento desde la izquierda (ajustable según necesidades) */
+    z-index: -10;
+}
+#informacionAPIS{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Krona One', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    color: #565656;
+    width: 100%;
+
+
+}
+
+.parteIzquierda  , .parteDerecha{
+    width: 50%;
+}
 /*
 
 
