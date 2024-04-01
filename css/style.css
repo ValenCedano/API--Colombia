@@ -227,13 +227,12 @@ body{
 
 .cards{
     display: grid;
-    grid-template-columns: 280px 280px;
-    grid-template-rows: 200px 200px;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 0.5fr));
+    grid-auto-rows: 200px;
     grid-gap: 10px;
     font-size: 10px;
-    color:#22292A;
+    color: #22292A;
     margin-top: 10px;
-    flex-wrap: wrap;
 
 }
 .caja{
