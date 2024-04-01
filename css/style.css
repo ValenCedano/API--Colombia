@@ -124,6 +124,7 @@ body{
 }
 
 #informacionGeneral{
+    position: relative;
     max-width: 100%;
     padding-top: 96px;
     display: flex;
@@ -169,19 +170,18 @@ body{
 .botonDocumentacion:hover{cursor: pointer}
 #mariposaGrande{
     position: absolute;
- 
-    max-width: 100%; 
-    top: 33%; /* Posicionamiento desde la parte superior (ajustable según necesidades) */
-    left: 70%; /* Posicionamiento desde la izquierda (ajustable según necesidades) */
+    max-width: 100%;
+
+    left: 72%;
     z-index: -10;
 }
 #mariposaPequeña{
     position: absolute;
     max-width: 100%;
-    left: 7%;
+    left: 10%;
     z-index: -10;
     transform: scaleY(-1);
-    top: 42%;
+    top: 26%;
 }
 #informacionAPIS{
     display: flex;
