@@ -406,3 +406,34 @@ section{
     height: 600px;
 }
 */
+
+
+/*             FOOTER             */
+footer {
+    display: flex;
+    background-color: #f7f7f7;
+    padding: 1.3em;
+}
+
+footer .made {
+    display: flex;
+    gap: .5em;
+    margin-left: 56em;
+    margin-top: 1em;
+}
+
+footer .made span {
+    font-family: 'Krona One';
+    font-size: 11px;
+    color: #575757;
+    margin-top: .5em;
+}
+
+footer .hearts > img {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+    margin-left: -9px;
+}
+
+/*             FIN FOOTER             */
