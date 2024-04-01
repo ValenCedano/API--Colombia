@@ -175,10 +175,19 @@ body{
     left: 70%; /* Posicionamiento desde la izquierda (ajustable según necesidades) */
     z-index: -10;
 }
+#mariposaPequeña{
+    position: absolute;
+    max-width: 100%;
+    left: 7%;
+    z-index: -10;
+    transform: scaleY(-1);
+    top: 42%;
+}
 #informacionAPIS{
-    margin-top: 30px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    margin-top: 30px;
+    
     font-family: 'Krona One', sans-serif;
     font-size: 20px;
     text-align: left;
@@ -190,6 +199,87 @@ body{
 
 .parteIzquierda  , .parteDerecha{
     width: 50%;
+    margin: 0.6em 1.2em;
+}
+
+.parteIzquierda h1{
+    font-size:24px;
+    line-height: 28.8px;
+    margin-bottom: 0.7em;
+    
+}
+
+.parteIzquierda p{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight:light;
+    line-height: 28.8px;
+    letter-spacing: 0.5px;
+}
+.botonDocumentacion{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    letter-spacing: 0.5px;
+    text-align: center;
+
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: 280px 280px;
+    grid-template-rows: 200px 200px;
+    grid-gap: 10px;
+    font-size: 10px;
+    color:#22292A;
+    margin-top: 10px;
+    flex-wrap: wrap;
+
+}
+.caja{
+    padding: 12px 10px;
+}
+.caja h4{
+    font-family: 'Krona One';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    margin-top: 8px;
+
+}
+
+.caja p{
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16.8px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    margin-top: 8px;
+    color: #22292A;
+    
+}
+
+.caja h6{
+    font-family: 'Krona One';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.4px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.uno, .cuatro{
+    background-color:#FEF9C3;
+}
+.dos, .tres{
+    background-color: #93C5FD;
+   
 }
 /*
 
