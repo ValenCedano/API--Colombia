@@ -421,8 +421,64 @@ section{
     font-size: 17px;
 }
 
+.sponsor {
+    display: flex;
+    gap: 19px;
+    background-color: #FECACA;
+    padding: .7em 1.5em;
+    width: 7em;
+    border-radius: 7px;
+    margin: 1.6em 35.5em;
+    text-decoration: none;
+    color: #000000;
+}
+
+.sponsor p {
+    font-family: 'Krona One';
+    font-size: 12px;
+    margin-left: 1em;
+}
+
+.sponsor svg {
+    position: absolute;
+    margin-top: -1px;
+}
+
+.sponsor .icon1 {
+    margin-left: -14px;
+}
+
+.sponsor .icon2 {
+    margin-left: 101px;
+}
+
 /* END INFORMATION ABOUT SPONSORSHIPS */
 
+/* RESPONSIVE  */
+/* Estilos para dispositivos móviles */
+@media (max-width: 767px) {
+    .sponsorships {
+        margin-top: 9em;
+    }
+
+    .sponsorships p {
+        font-size: 15px;
+    }
+}
+
+  /* Estilos para tablets */
+@media (min-width: 768px) and (min-width: 375px) and (min-width: 335px) and (max-width: 1023px) {
+    .sponsorships {
+        position: relative;
+        margin-top: 13em;
+    }
+
+    .sponsorships p {
+        /* font-size: 9px; */
+        width: 1em;
+    }
+}
+/* FIN RESPONSIVE  */
 
 
 /*             FOOTER             */
@@ -459,6 +515,22 @@ footer .hearts > img {
     margin-left: -9px;
 }
 
-/* #FECACA  */
+
+/* RESPONSIVE */
+@media (max-width: 767px) {
+    footer .made {
+        margin-left: 1em; /* Cambiar este valor para dispositivos móviles */
+        margin-top: 1.7em;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    footer .made {
+        margin-left: 34em; /* Cambiar este valor para tablets */
+    }
+}
+/* FIN RESPONSIVE */
+
+
 
 /*             FIN FOOTER             */
