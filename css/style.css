@@ -408,11 +408,33 @@ section{
 */
 
 
+/* INFORMATION ABOUT SPONSORSHIPS */
+
+.sponsorships {
+    position: relative;
+    text-align: center;
+    margin-top: 3em;
+}
+
+.sponsorships p {
+    font-family: 'Poppins';
+    font-size: 17px;
+}
+
+/* END INFORMATION ABOUT SPONSORSHIPS */
+
+
+
 /*             FOOTER             */
 footer {
     display: flex;
     background-color: #f7f7f7;
-    padding: 1.3em;
+    padding: 1em;
+    margin-top: 4em;
+}
+
+footer svg {
+    margin-top: 1em;
 }
 
 footer .made {
@@ -424,9 +446,10 @@ footer .made {
 
 footer .made span {
     font-family: 'Krona One';
-    font-size: 11px;
     color: #575757;
     margin-top: .5em;
+    width: 9em;
+    font-size: 12px;
 }
 
 footer .hearts > img {
@@ -435,5 +458,7 @@ footer .hearts > img {
     object-fit: contain;
     margin-left: -9px;
 }
+
+/* #FECACA  */
 
 /*             FIN FOOTER             */
