@@ -310,6 +310,33 @@ body{
     
 
 }
+
+@media screen and (max-width: 767px) {
+
+    #Colaboradores .contenedorprincipal .colaboradores img {
+        margin-left: 1em;
+    }
+
+    #Colaboradores {
+        margin-left: -4em;
+        margin-top: 1.3em;
+    }
+
+    #Colaboradores .responsive {
+        margin-top: 1em;
+        margin-left: -5em;
+    }
+
+    #Colaboradores .responsive- {
+        margin-top: 1em;
+        margin-left: -10em;
+    }
+
+    .sponsorships-responsive {
+        margin-top: 22em;
+    }
+}
+
 .contenedorprincipal{
     margin: 20px 3px;
     width: 76vw;
@@ -501,19 +528,22 @@ section{
 
     .sponsorships p {
         position: relative;
-        font-size: 18px;
+        font-size: 13px;
         width: 23em;
-        margin-left: -4em;
+        margin-left: -8em;
     }
 
     .sponsor {
-        margin-left: 3em;
+        margin-left: -4em;
     }
 
     .sponsor p {
         margin-left: -2px;
     }
 
+    footer .made {
+        margin-left: 20em;
+    }
 }
 
   /* Estilos para tablets */
@@ -523,13 +553,8 @@ section{
         margin-top: 13em;
     }
 
-    .sponsorships p {
-        /* font-size: 9px; */
-        width: 1em;
-    }
-
-    footer .made {
-        margin-left: 44em; /* Cambiar este valor para tablets */
+    .sponsorships .sponsor p {
+        font-size: 12px;
     }
 }
 /* FIN RESPONSIVE  */
@@ -578,9 +603,10 @@ footer .hearts > img {
     }
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1023px) and (max-width: 569px) {
     footer .made {
-        margin-left: 34em; /* Cambiar este valor para tablets */
+        position: absolute;
+        margin-left: 14em; /* Cambiar este valor para tablets */
     }
 }
 /* FIN RESPONSIVE */
