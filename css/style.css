@@ -455,15 +455,65 @@ section{
 /* END INFORMATION ABOUT SPONSORSHIPS */
 
 /* RESPONSIVE  */
-/* Estilos para dispositivos móviles */
-@media (max-width: 767px) {
-    .sponsorships {
-        margin-top: 9em;
-    }
-
+/* media query for screens smaller than 768px (tablet) */
+@media screen and (max-width: 767px) {
     .sponsorships p {
         font-size: 15px;
     }
+
+    .sponsor {
+      margin: 1.6em 0; /* adjust the margin for smaller screens */
+    }
+}
+
+  /* media query for screens smaller than 480px (mobile) */
+@media screen and (max-width: 479px) {
+    .sponsorships p {
+        font-size: 13px;
+    }
+
+    .sponsor {
+        width: 13em;
+        font-size: 10px;
+        margin-left: 7em;
+    }
+
+    .sponsor p {
+        margin-left: 8px;
+        font-size: 23px;
+    }
+
+    .sponsor .icon1 {
+        margin-left: -5px;
+    }
+
+    .sponsor .icon2 {
+        margin-left: 11.5em;
+    }
+}
+/* FIN RESPONSIVE  */
+/* Estilos para dispositivos móviles */
+@media (max-width: 767px) {
+    .sponsorships {
+        margin-top: 11em;
+        margin-left: 9em;
+    }
+
+    .sponsorships p {
+        position: relative;
+        font-size: 18px;
+        width: 23em;
+        margin-left: -4em;
+    }
+
+    .sponsor {
+        margin-left: 3em;
+    }
+
+    .sponsor p {
+        margin-left: -2px;
+    }
+
 }
 
   /* Estilos para tablets */
@@ -476,6 +526,10 @@ section{
     .sponsorships p {
         /* font-size: 9px; */
         width: 1em;
+    }
+
+    footer .made {
+        margin-left: 44em; /* Cambiar este valor para tablets */
     }
 }
 /* FIN RESPONSIVE  */
