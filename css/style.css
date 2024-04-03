@@ -216,6 +216,17 @@ body{
     line-height: 28.8px;
     letter-spacing: 0.5px;
 }
+
+@media screen and (max-width: 767px) {
+    #informacionAPIS .parteIzquierda h1 {
+        margin-left: .2em;
+    }
+
+    #informacionAPIS .parteIzquierda p {
+        margin-left: 1em;
+        width: 16em;
+    }
+}
 .botonDocumentacion{
     font-size: 14px;
     font-weight: 400;
@@ -483,13 +494,14 @@ section{
 
 /* RESPONSIVE  */
 /* media query for screens smaller than 768px (tablet) */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) and (max-width: 375px) {
+    .sponsorships {
+        position: relative;
+        padding-top: 13em;
+    }
+    
     .sponsorships p {
         font-size: 15px;
-    }
-
-    .sponsor {
-      margin: 1.6em 0; /* adjust the margin for smaller screens */
     }
 }
 
