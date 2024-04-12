@@ -28,6 +28,9 @@
 body{
     background-color: var(--neutral-color-background);
     max-width: 1440px;
+    width: 100%;
+    align-self: center;
+    
 }
 
 #ContenedorHeader{
@@ -296,8 +299,10 @@ body{
     flex-direction: column;
     align-items: center;
     height: 30em;
-    margin-top:4em;
+    margin-top: 4em;
+    width: 100%;
 }
+
 
 #Colaboradores h1{
     font-family: 'Krona One';
@@ -497,7 +502,8 @@ section{
 @media screen and (max-width: 767px) and (max-width: 375px) {
     .sponsorships {
         position: relative;
-        padding-top: 13em;
+        margin-top: 13em;
+        width: 100%;
     }
     
     .sponsorships p {
@@ -577,7 +583,11 @@ footer {
     display: flex;
     background-color: #f7f7f7;
     padding: 1em;
-    margin-top: 4em;
+    /* margin-top: 4em; */
+    max-width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 footer svg {
@@ -586,9 +596,12 @@ footer svg {
 
 footer .made {
     display: flex;
-    gap: .5em;
-    margin-left: 56em;
-    margin-top: 1em;
+    /* gap: .5em; */
+    /* margin-left: 56em; */
+    /* margin-top: 1em; */
+    flex-direction: row;
+    max-width: 100%;
+    justify-content: space-around;
 }
 
 footer .made span {
