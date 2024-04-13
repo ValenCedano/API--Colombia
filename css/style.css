@@ -574,20 +574,24 @@ section{
 
 /*             FOOTER             */
 footer {
+   
+
     display: flex;
     background-color: #f7f7f7;
     padding: 1em;
     margin-top: 4em;
+    justify-content: space-between;
 }
 
 footer svg {
     margin-top: 1em;
+    
 }
 
 footer .made {
     display: flex;
     gap: .5em;
-    margin-left: 56em;
+    
     margin-top: 1em;
 }
 
@@ -603,7 +607,7 @@ footer .hearts > img {
     width: 25px;
     height: 25px;
     object-fit: contain;
-    margin-left: -9px;
+    
 }
 
 
