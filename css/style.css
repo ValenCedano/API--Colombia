@@ -630,3 +630,649 @@ footer .hearts > img {
 
 
 /*             FIN FOOTER             */
+
+@font-face {
+    font-family: 'Krona One';
+    src: url('/fonts/krona-one-latin-400-normal.woff2') format('woff2');
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('/fonts/poppins-latin-200-normal.woff2') format('woff2') ;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+:root{
+    --tipografia-body:'Cormorant Garamond', serif;
+    --neutral-color-background:#FDFDFD;
+    --secundary-color: white;
+    --third-color:#F5D38E;
+}
+
+body{
+    background-color: var(--neutral-color-background);
+    max-width: 1440px;
+    width: 100%;
+    align-self: center;
+    
+}
+
+#ContenedorHeader{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 66px;
+    margin-top: 16px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.navegador{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 40em;
+    align-items: center;
+    margin-right: 2em;
+}
+.menu-desplegable{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    list-style: none;
+    height: 32px;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.menu-desplegable a, .menu-desplegable h6{
+    
+    height: 16px;
+    font-family: 'Krona One', sans-serif;
+    font-size: 12px; 
+    line-height: 14.4px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color:#565656;
+    text-decoration-line:none;
+}
+
+.menu-desplegable span{
+    flex-wrap: wrap;
+    color: #E6E9EA;
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: -11px;
+    
+}
+.section-iconosExtras{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 126px;
+    gap:32px;
+   
+}
+.section-github{display: flex;flex-direction: row;
+    align-items: center;
+    background-color:#E6E9EA;
+    border-radius: 5px;
+    padding: 3px;
+}
+.section-github p{
+    background-color: white;
+    border-radius: 5px;
+    padding: 3px;
+    font-family: 'Krona One', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+#Logo-API{
+    margin-left: 4em;
+    margin-top: 11px;
+    width: 122px;
+    height: 38.1px;
+}
+.menu-desplegable li:hover{
+    height: 20px;
+   
+    cursor: pointer;
+
+    padding-bottom: 8px;
+    border-bottom: 2px solid #595b5c;
+    border-radius: 4px;
+   
+}
+.section-iconosExtras:hover{
+    cursor: pointer;
+}
+
+#informacionGeneral{
+    position: relative;
+    max-width: 100%;
+    padding-top: 96px;
+    display: flex;
+    flex-direction: column;
+    gap:7px;
+    font-family: 'Krona One', sans-serif;
+    align-items: center;
+}
+
+#informacionGeneral h1{
+    width: 554px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0.5px;
+    color: #565656;
+}
+#yellow{color:#FFCD00}
+#blue{color:#003087}
+#red{color:#C8102E}
+
+#informacionGeneral p{
+    margin-top: 8px;
+    width: 554px;
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: large;
+    font-weight: light;
+}
+.botonDocumentacion{
+    margin-top: 16px;
+    border-style: none;
+    background-color: #FFCD00;
+    font-size: 18px;
+    font-family: 'Krona One', sans-serif;
+    text-align: center;
+    width: 266px;
+    height: 54px;
+    color: #22292A;
+
+}
+.botonDocumentacion:hover{cursor: pointer}
+#mariposaGrande{
+    position: absolute;
+    max-width: 100%;
+
+    left: 72%;
+    z-index: -10;
+}
+#mariposaPequeña{
+    position: absolute;
+    max-width: 100%;
+    left: 10%;
+    z-index: -10;
+    transform: scaleY(-1);
+    top: 26%;
+}
+#informacionAPIS{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    
+    font-family: 'Krona One', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    color: #565656;
+    width: 100%;
+
+
+}
+
+.parteIzquierda  , .parteDerecha{
+    width: 50%;
+    margin: 0.6em 1.2em;
+}
+
+.parteIzquierda h1{
+    font-size:24px;
+    line-height: 28.8px;
+    margin-bottom: 0.7em;
+    
+}
+
+.parteIzquierda p{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight:light;
+    line-height: 28.8px;
+    letter-spacing: 0.5px;
+}
+
+@media screen and (max-width: 767px) {
+    #informacionAPIS .parteIzquierda h1 {
+        margin-left: .2em;
+    }
+
+    #informacionAPIS .parteIzquierda p {
+        margin-left: 1em;
+        width: 16em;
+    }
+}
+.botonDocumentacion{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    letter-spacing: 0.5px;
+    text-align: center;
+
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 0.5fr));
+    grid-auto-rows: 200px;
+    grid-gap: 10px;
+    font-size: 10px;
+    color: #22292A;
+    margin-top: 10px;
+
+}
+.caja{
+    padding: 12px 10px;
+}
+.caja h4{
+    font-family: 'Krona One';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    margin-top: 8px;
+
+}
+
+.caja p{
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16.8px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    margin-top: 8px;
+    color: #22292A;
+    
+}
+
+.caja h6{
+    font-family: 'Krona One';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.4px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.uno, .cuatro{
+    background-color:#FEF9C3;
+}
+.dos, .tres{
+    background-color: #93C5FD;
+   
+}
+#Colaboradores{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 30em;
+    margin-top: 4em;
+    width: 100%;
+}
+
+
+#Colaboradores h1{
+    font-family: 'Krona One';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.8px;
+    color: #565656;
+    margin-bottom: 1.4em;
+
+}
+
+#Colaboradores p{
+    font-family:'Poppins';
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28.8px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    width: 45%;
+    color: #565656;
+    
+
+}
+
+@media screen and (max-width: 767px) {
+
+    #Colaboradores .contenedorprincipal .colaboradores img {
+        margin-left: 1em;
+    }
+
+    #Colaboradores {
+        margin-left: -4em;
+        margin-top: 1.3em;
+    }
+
+    #Colaboradores .responsive {
+        margin-top: 1em;
+        margin-left: -5em;
+    }
+
+    #Colaboradores .responsive- {
+        margin-top: 1em;
+        margin-left: -10em;
+    }
+
+    .sponsorships-responsive {
+        margin-top: 22em;
+    }
+}
+
+.contenedorprincipal{
+    margin: 20px 3px;
+    width: 76vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.partuna{
+    display: flex;
+    width: 84%;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.partdos{
+    display: flex;
+    width: 55%;
+    margin-top: -93px;
+    justify-content: space-between;
+}
+.parttres{
+    display: flex;
+    width: 29%;
+    flex-direction: row;
+    margin-top: -90px;
+    justify-content: space-around;
+
+}
+/*
+
+
+.menu-desplegable{
+    display: inline-flex;
+    height: 16px;
+    gap: 32px;
+
+}
+*/
+/*
+.menu-desplegable a, .menu-desplegable h6{
+    height: 16px;
+    font-family: 'Krona One', sans-serif;
+    font-size: 14px; 
+    font-weight: normal;
+    line-height: 14.4px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color:#565656;
+    text-decoration-line:none;
+}
+
+.menu-desplegable span{
+    color: #E6E9EA;
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: -11px;
+    
+}
+
+.section-github{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color:#E6E9EA;
+    border-radius: 5px;
+    gap:8px;
+    width: 70px;
+    height: 30px;
+    
+}
+
+.section-github p{
+
+    background-color: white;
+    border-radius: 5px;
+    padding: 3px;
+    font-family: 'Krona One', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+#Logo-API{
+    margin-left: 120px;
+    margin-top: 16px;
+    width: 122px;
+    height: 38.1px;
+}
+
+#githubIcon{
+    padding-left: 4px;
+}
+
+section{
+    height: 600px;
+}
+*/
+
+
+/* INFORMATION ABOUT SPONSORSHIPS */
+
+.sponsorships {
+    position: relative;
+    text-align: center;
+    margin-top: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    margin-bottom: 3.4em;
+}
+
+.sponsorships p {
+    font-family: 'Poppins';
+    font-size: 17px;
+}
+
+.sponsor {
+    display: flex;
+    gap: 19px;
+    background-color: #FECACA;
+    padding: .7em 1.5em;
+    width: 7em;
+    
+    border-radius: 7px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.sponsor p {
+    font-family: 'Krona One';
+    font-size: 12px;
+    margin-left: 1em;
+}
+
+.sponsor svg {
+    position: absolute;
+    margin-top: -1px;
+}
+
+.sponsor .icon1 {
+    margin-left: -14px;
+}
+
+.sponsor .icon2 {
+    margin-left: 101px;
+}
+
+/* END INFORMATION ABOUT SPONSORSHIPS */
+
+/* RESPONSIVE  */
+/* media query for screens smaller than 768px (tablet) */
+@media screen and (max-width: 767px) and (max-width: 375px) {
+    .sponsorships {
+        position: relative;
+        margin-top: 7em;
+        width: 100%;
+    }
+    
+    .sponsorships p {
+        font-size: 15px;
+    }
+}
+
+  /* media query for screens smaller than 480px (mobile) */
+@media screen and (max-width: 479px) {
+    .sponsorships p {
+        font-size: 13px;
+    }
+
+    .sponsor {
+        width: 13em;
+        font-size: 10px;
+        margin-left: 7em;
+    }
+
+    .sponsor p {
+        margin-left: 8px;
+        font-size: 23px;
+    }
+
+    .sponsor .icon1 {
+        margin-left: -5px;
+    }
+
+    .sponsor .icon2 {
+        margin-left: 11.5em;
+    }
+}
+/* FIN RESPONSIVE  */
+/* Estilos para dispositivos móviles */
+@media (max-width: 767px) {
+    .sponsorships {
+        margin-top: 11em;
+        margin-left: 9em;
+    }
+
+    .sponsorships p {
+        position: relative;
+        font-size: 13px;
+        width: 23em;
+        margin-left: -8em;
+    }
+
+    .sponsor {
+        margin-left: -4em;
+    }
+
+    .sponsor p {
+        margin-left: -2px;
+    }
+
+    footer .made {
+        margin-left: 20em;
+    }
+}
+
+  /* Estilos para tablets */
+@media (min-width: 768px) and (min-width: 375px) and (min-width: 335px) and (max-width: 1023px) {
+    .sponsorships {
+        position: relative;
+        margin-top: 13em;
+    }
+
+    .sponsorships .sponsor p {
+        font-size: 12px;
+    }
+}
+/* FIN RESPONSIVE  */
+
+
+/*             FOOTER             */
+footer {
+    display: flex;
+    background-color: #f7f7f7;
+    padding: 1em;
+    /* margin-top: 4em; */
+    max-width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer svg {
+    margin-top: 1em;
+}
+
+footer .made {
+    display: flex;
+    /* gap: .5em; */
+    /* margin-left: 56em; */
+    /* margin-top: 1em; */
+    flex-direction: row;
+    max-width: 100%;
+    justify-content: space-around;
+}
+
+footer .made span {
+    font-family: 'Krona One';
+    color: #575757;
+    margin-top: .5em;
+    width: 9em;
+    font-size: 12px;
+}
+
+footer .hearts > img {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+    margin-left: -9px;
+}
+
+
+/* RESPONSIVE */
+@media (max-width: 767px) {
+    footer .made {
+        margin-left: 1em; /* Cambiar este valor para dispositivos móviles */
+        margin-top: 1.7em;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) and (max-width: 569px) {
+    footer .made {
+        position: absolute;
+        margin-left: 14em; /* Cambiar este valor para tablets */
+    }
+}
+/* FIN RESPONSIVE */
+
+
+
+/*             FIN FOOTER             */
