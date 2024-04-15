@@ -1,7 +1,3 @@
-.module-api {
-  border-radius: 0px 0px 7px 7px;
-}
-
 .module-api .options-api {
   position: absolute;
   display: flex;
@@ -17,7 +13,7 @@
 .module-api .options-api select {
   background-color: rgba(179, 179, 179, .5);
   border: none;
-  width: 8.3em;
+  width: 93.3px;
   font-family: 'Poppins';
   margin-left: 7px;
   font-weight: bold;
@@ -29,17 +25,46 @@
   border: none;
   background-color: #003087;
   border-radius: 4px;
-  padding: 4px 10px;
-  color: white;
+  padding: 4px 8px;
+  color: #fff;
   font-family: 'Poppins';
   font-weight: bold;
   margin-left: 2em;
   cursor: pointer;
 }
 
-.module-api .resultado {
+.parteDerecha .block-api {
+  position: absolute;
+  background-color: #22292a;
+  padding: 10px;
+  margin-top: 2em;
+  width: 485px;
+  height: 2.7em;
+  border-bottom: 1px solid #ffffff;
+}
+
+.parteDerecha .block-api img {
+  width: 489px;
+  margin-top: -15px;
+  object-fit: cover;
+}
+
+.parteDerecha .module-api .resultado {
+  position: absolute;
+  margin-top: 9.6em;
   font-size: 12px;
-  height: 300px;
+  width: 499px;
   overflow-y: auto;
   background-color: #22292a;
+  border-radius: 0px 0px 7px 7px;
+  height: 429px;
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+.parteDerecha .resultado {
+  font-size: 12px;
+  padding: 7px 10.5px;
+  color: #CE9178;
+  scrollbar-width: 3em;
 }

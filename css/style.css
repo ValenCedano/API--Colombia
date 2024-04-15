@@ -230,6 +230,11 @@ body{
     }
 }
 
+.parteDerecha {
+    position: absolute;
+    margin: 3em 33em;
+}
+
 .parteDerecha .content-api {
     background-color: #22292A;
 }
