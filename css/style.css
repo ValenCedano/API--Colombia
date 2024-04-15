@@ -1,3 +1,4 @@
+@import './moduleApi.css';
 
 @font-face {
     font-family: 'Krona One';
@@ -185,6 +186,7 @@ body{
 }
 #informacionAPIS{
     display: flex;
+    gap: 4em;
     flex-direction: column;
     margin-top: 30px;
     
@@ -227,6 +229,11 @@ body{
         width: 16em;
     }
 }
+
+.parteDerecha .content-api {
+    background-color: #22292A;
+}
+
 .botonDocumentacion{
     font-size: 14px;
     font-weight: 400;
@@ -234,6 +241,18 @@ body{
     letter-spacing: 0.5px;
     text-align: center;
 
+}
+
+/* .parteDerecha {
+    background-color: #22292A;
+    color: #fff;
+    width: 25em;
+} */
+
+#department-data {
+	border: 1px solid #ccc;
+	padding: 20px;
+	margin: 20px 0;
 }
 
 .cards{
@@ -444,6 +463,12 @@ section{
     height: 600px;
 }
 */
+
+/* START MODULE API */
+
+
+
+/* END MODULE API */
 
 
 /* INFORMATION ABOUT SPONSORSHIPS */

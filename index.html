@@ -154,7 +154,31 @@
 
     
     <div class="parteDerecha">
+      <!-- START MODULE API -->
 
+      <div class="module-api">
+        <div class="options-api">
+          <p style="font-family: 'Poppins'; font-weight: bold; font-size: 13px;">https://api-colombia.com/api/</p>
+          <select id="selectVersion">
+            <option value="v1">v1</option>
+            <option value="v2">v2</option>
+            <option value="v3">v3</option>
+          </select>
+
+          <select id="selectData">
+            <option value="president">Presidente</option>
+            <option value="natural-area">Área Natural</option>
+            <option value="category-natural-area">Categoría de Área Natural</option>
+            <option value="map">Mapa</option>
+          </select>
+
+          <button id="btnSolicitar">Solicitar</button>
+        </div>
+        
+        <div class="resultado"></div>
+      </div>
+
+      <!-- END MODULE API -->
     </div>
   </section>
   <section id="Colaboradores">
@@ -246,6 +270,8 @@
     </div>
 
   </footer>
+
+  <script src="js/moduleApi.js"></script>
 </body>
 
 </html>
