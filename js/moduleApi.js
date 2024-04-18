@@ -29,7 +29,7 @@ btnSolicitar.addEventListener('click', function() {
       // Procesar los datos obtenidos
       console.log(data);
       // Mostrar los datos en el div resultado
-      resultadoDiv.innerText = JSON.stringify(data, version, 2);
+      resultadoDiv.innerText = JSON.stringify(data, null, 2);
     })
     .catch(error => {
       // Capturar y manejar errores de la solicitud

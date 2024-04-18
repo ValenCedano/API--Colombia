@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'Krona One';
+  src: url('/fonts/krona-one-latin-400-normal.woff2') format('woff2');
+
+  font-weight: normal;
+  font-style: normal;
+}
+
 .module-api .options-api {
   position: absolute;
   display: flex;
@@ -62,9 +70,28 @@
   overflow-y: auto;
 }
 
-.parteDerecha .resultado {
-  font-size: 12px;
-  padding: 7px 10.5px;
-  color: #CE9178;
-  scrollbar-width: 3em;
+.resultado {
+  color: #CB8F77; /* Fondo gris claro */
+  padding: 10px 18px; /* Espaciado interno */
+  border-radius: 5px; /* Bordes redondeados */
+  font-family: 'Krona One'; /* Fuente monoespaciada para mantener la estructura */
+  line-height: 1.7; /* Espaciado entre líneas */
 }
+
+.resultado .json-key {
+  color: #CB8F77; /* Color azul para las claves */
+}
+
+/* Estilos para resaltar los valores del JSON */
+.resultado .json-value {
+  color: #CECFA0; /* Color verde para los valores */
+}
+
+/* Estilos para el separador ":" del JSON */
+.resultado .json-separator {
+  color: #9A9D9D; /* Color negro para el separador ":" */
+}
+
+
+/* #CECFA0 */
+/* #CB8F77 */
