@@ -1,35 +1,35 @@
-
 @font-face {
     font-family: 'Krona One';
     src: url('/fonts/krona-one-latin-400-normal.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'Poppins';
-    src: url('/fonts/poppins-latin-200-normal.woff2') format('woff2') ;
+    src: url('/fonts/poppins-latin-200-normal.woff2') format('woff2');
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
-    
+
 }
 
-:root{
-    --tipografia-body:'Cormorant Garamond', serif;
-    --neutral-color-background:#FDFDFD;
+:root {
+    --tipografia-body: 'Cormorant Garamond', serif;
+    --neutral-color-background: #FDFDFD;
     --secundary-color: white;
-    --third-color:#F5D38E;
+    --third-color: #F5D38E;
 }
 
-body{
+body {
     width: 100%;
     background-color: var(--neutral-color-background);
     max-width: 1440px;
 }
 
-#ContenedorHeader{
+#ContenedorHeader {
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -39,7 +39,7 @@ body{
     flex-wrap: wrap;
 }
 
-.navegador{
+.navegador {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -48,7 +48,8 @@ body{
     align-items: center;
     margin-right: 2em;
 }
-.menu-desplegable{
+
+.menu-desplegable {
     display: flex;
     flex-direction: row;
     gap: 32px;
@@ -58,42 +59,49 @@ body{
     flex-wrap: wrap;
 
 }
-.menu-desplegable a, .menu-desplegable h6{
-    
+
+.menu-desplegable a,
+.menu-desplegable h6 {
+
     height: 16px;
     font-family: 'Krona One', sans-serif;
-    font-size: 12px; 
+    font-size: 12px;
     line-height: 14.4px;
     letter-spacing: 0.5px;
     text-align: center;
-    color:#565656;
-    text-decoration-line:none;
+    color: #565656;
+    text-decoration-line: none;
 }
 
-.menu-desplegable span{
+.menu-desplegable span {
     flex-wrap: wrap;
     color: #E6E9EA;
     font-size: 28px;
     font-weight: 500;
     margin-top: -11px;
-    
+
 }
-.section-iconosExtras{
+
+.section-iconosExtras {
     flex-wrap: wrap;
     display: flex;
     flex-direction: row;
     align-items: center;
     width: 126px;
-    gap:32px;
-   
+    gap: 32px;
+
 }
-.section-github{display: flex;flex-direction: row;
+
+.section-github {
+    display: flex;
+    flex-direction: row;
     align-items: center;
-    background-color:#E6E9EA;
+    background-color: #E6E9EA;
     border-radius: 5px;
     padding: 3px;
 }
-.section-github p{
+
+.section-github p {
     background-color: white;
     border-radius: 5px;
     padding: 3px;
@@ -102,38 +110,40 @@ body{
     font-weight: 400;
 }
 
-#Logo-API{
+#Logo-API {
     margin-left: 4em;
     margin-top: 11px;
     width: 122px;
     height: 38.1px;
 }
-.menu-desplegable li:hover{
+
+.menu-desplegable li:hover {
     height: 20px;
-   
+
     cursor: pointer;
 
     padding-bottom: 8px;
     border-bottom: 2px solid #595b5c;
     border-radius: 4px;
-   
+
 }
-.section-iconosExtras:hover{
+
+.section-iconosExtras:hover {
     cursor: pointer;
 }
 
-#informacionGeneral{
+#informacionGeneral {
     position: relative;
     max-width: 100%;
     padding-top: 96px;
     display: flex;
     flex-direction: column;
-    gap:7px;
+    gap: 7px;
     font-family: 'Krona One', sans-serif;
     align-items: center;
 }
 
-#informacionGeneral h1{
+#informacionGeneral h1 {
     width: 554px;
     max-width: 100%;
     text-align: center;
@@ -143,11 +153,20 @@ body{
     letter-spacing: 0.5px;
     color: #565656;
 }
-#yellow{color:#FFCD00}
-#blue{color:#003087}
-#red{color:#C8102E}
 
-#informacionGeneral p{
+#yellow {
+    color: #FFCD00
+}
+
+#blue {
+    color: #003087
+}
+
+#red {
+    color: #C8102E
+}
+
+#informacionGeneral p {
     margin-top: 8px;
     width: 554px;
     max-width: 100%;
@@ -156,11 +175,12 @@ body{
     font-size: large;
     font-weight: light;
 }
-.botonDocumentacion{
+
+.botonDocumentacion {
     margin-top: 16px;
     border-style: none;
     background-color: #FFCD00;
-    font-size: 18px;
+    font-size: 17px;
     font-family: 'Krona One', sans-serif;
     text-align: center;
     width: 266px;
@@ -168,14 +188,19 @@ body{
     color: #22292A;
 
 }
-.botonDocumentacion:hover{cursor: pointer}
-#mariposaGrande{
+
+.botonDocumentacion:hover {
+    cursor: pointer
+}
+
+#mariposaGrande {
     position: absolute;
     width: 24vw;
     left: 72%;
     z-index: -10;
 }
-#mariposaPequeña{
+
+#mariposaPequeña {
     position: absolute;
     max-width: 100%;
     left: 10%;
@@ -183,7 +208,8 @@ body{
     transform: scaleY(-1);
     top: 26%;
 }
-#informacionAPIS{
+
+#informacionAPIS {
     display: flex;
     flex-direction: row;
     margin-top: 30px;
@@ -196,26 +222,28 @@ body{
 
 }
 
-.parteIzquierda  , .parteDerecha{
+.parteIzquierda,
+.parteDerecha {
     width: 50%;
     margin: 0.6em 1.2em;
 }
 
-.parteIzquierda h1{
-    font-size:24px;
+.parteIzquierda h1 {
+    font-size: 24px;
     line-height: 28.8px;
     margin-bottom: 0.7em;
-    
+
 }
 
-.parteIzquierda p{
+.parteIzquierda p {
     font-family: Poppins;
     font-size: 18px;
-    font-weight:light;
+    font-weight: light;
     line-height: 28.8px;
     letter-spacing: 0.5px;
 }
-.cards{
+
+.cards {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(270px, 0.5fr));
     grid-auto-rows: 200px;
@@ -224,13 +252,15 @@ body{
     color: #22292A;
     margin-top: 10px;
     max-width: 100%;
-    
+
 
 }
-.caja{
+
+.caja {
     padding: 12px 10px;
 }
-.caja h4{
+
+.caja h4 {
     font-family: 'Krona One';
     font-size: medium;
     font-weight: 400;
@@ -241,7 +271,7 @@ body{
 
 }
 
-.caja p{
+.caja p {
     font-family: 'Poppins';
     font-size: medium;
     font-weight: 300;
@@ -250,10 +280,10 @@ body{
     text-align: left;
     margin-top: 8px;
     color: #22292A;
-    
+
 }
 
-.caja h6{
+.caja h6 {
     font-family: 'Krona One';
     font-size: 12px;
     font-weight: 400;
@@ -265,22 +295,26 @@ body{
     align-items: center;
 }
 
-.uno, .cuatro{
-    background-color:#FEF9C3;
+.uno,
+.cuatro {
+    background-color: #FEF9C3;
 }
-.dos, .tres{
+
+.dos,
+.tres {
     background-color: #93C5FD;
-   
+
 }
-#Colaboradores{
+
+#Colaboradores {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
-    margin-top:4em;
+
+    margin-top: 4em;
 }
 
-#Colaboradores h1{
+#Colaboradores h1 {
     font-family: 'Krona One';
     font-size: 24px;
     font-weight: 400;
@@ -290,8 +324,8 @@ body{
 
 }
 
-#Colaboradores p{
-    font-family:'Poppins';
+#Colaboradores p {
+    font-family: 'Poppins';
     font-size: 18px;
     font-weight: 300;
     line-height: 28.8px;
@@ -299,11 +333,11 @@ body{
     text-align: center;
     width: 45%;
     color: #565656;
-    
+
 
 }
 
-.contenedorprincipal{
+.contenedorprincipal {
     margin: 20px 3px;
     width: 76vw;
     display: flex;
@@ -312,19 +346,21 @@ body{
     flex-wrap: wrap;
 }
 
-.partuna{
+.partuna {
     display: flex;
     width: 84%;
     justify-content: space-between;
     flex-direction: row;
 }
-.partdos{
+
+.partdos {
     display: flex;
     width: 55%;
     margin-top: -93px;
     justify-content: space-between;
 }
-.parttres{
+
+.parttres {
     display: flex;
     width: 29%;
     flex-direction: row;
@@ -346,7 +382,7 @@ body{
     align-items: center;
     gap: 1em;
     margin-bottom: 3.4em;
-        padding: 2px 10px;
+    padding: 2px 10px;
 }
 
 .sponsorships p {
@@ -402,13 +438,13 @@ footer {
 
 footer svg {
     margin-top: 1em;
-    
+
 }
 
 footer .made {
     display: flex;
     gap: .5em;
-    
+
     margin-top: 1em;
 }
 
@@ -420,25 +456,33 @@ footer .made span {
     font-size: 12px;
 }
 
-footer .hearts > img {
+footer .hearts>img {
     width: 25px;
     height: 25px;
     object-fit: contain;
-    
+
 }
-.menuicon{
+
+.menuicon {
     display: none;
 }
+
 /*             FIN FOOTER             */
 
 /* RESPONSIVE  */
 
 /* Entre un tamaño de 600px hasta 1001px */
 
-@media (700px <= width <= 1001px) {
-    .navegador{ display:none;}  
-    .menuicon{display: flex }
-    .menuicon img{
+@media (700px <=width <=1001px) {
+    .navegador {
+        display: none;
+    }
+
+    .menuicon {
+        display: flex
+    }
+
+    .menuicon img {
         /* Esto asegura que el contenedor tome solo el espacio que la imagen necesita */
         transform: scale(0.65);
         height: 66px;
@@ -446,37 +490,86 @@ footer .hearts > img {
         background-color: #E6E9EA;
         border-radius: 10%;
     }
-    #informacionGeneral h1{font-size: 2.41em;}
-    #informacionGeneral p{font-size: 1.2em;}
-    #mariposaPequeña{
-        left:4%;
+
+    #informacionGeneral h1 {
+        font-size: 2.41em;
+    }
+
+    #informacionGeneral p {
+        font-size: 1.2em;
+    }
+
+    #mariposaPequeña {
+        left: 4%;
         top: 37%;
     }
-    #mariposaGrande{
+
+    #mariposaGrande {
         width: 19vw;
         left: 81%;
         top: 8.5em;
     }
-    .botonDocumentacion{font-size: small;}
-    .parteIzquierda{width: 100%;}
-    .parteDerecha{display: none;}
-    .cards{margin-top: 22px;}
-    #Colaboradores p{width: 90%;}
-    .contenedorprincipal{transform: scale(1); width: 98%;}
-    .partuna{width: 97%;}
-    .partdos{width: 70%;}
-    .parttres{width: 40%;}
-    #Logo-API {margin-left: 3em;}
-    footer{padding: 0 1em;}
-}
 
-@media (527px <= width <= 700px) {
-    #mariposaGrande{
+    .botonDocumentacion {
+        font-size: small;
+    }
+
+    .parteIzquierda {
+        width: 100%;
+    }
+
+    .parteDerecha {
         display: none;
     }
-    .navegador{ display:none;}  
-    .menuicon{display: flex }
-    .menuicon img{
+
+    .cards {
+        margin-top: 22px;
+    }
+
+    #Colaboradores p {
+        width: 90%;
+    }
+
+    .contenedorprincipal {
+        transform: scale(1);
+        width: 98%;
+    }
+
+    .partuna {
+        width: 97%;
+    }
+
+    .partdos {
+        width: 70%;
+    }
+
+    .parttres {
+        width: 40%;
+    }
+
+    #Logo-API {
+        margin-left: 3em;
+    }
+
+    footer {
+        padding: 0 1em;
+    }
+}
+
+@media (527px <=width <=700px) {
+    #mariposaGrande {
+        display: none;
+    }
+
+    .navegador {
+        display: none;
+    }
+
+    .menuicon {
+        display: flex
+    }
+
+    .menuicon img {
         /* Esto asegura que el contenedor tome solo el espacio que la imagen necesita */
         transform: scale(0.65);
         height: 66px;
@@ -484,50 +577,105 @@ footer .hearts > img {
         background-color: #E6E9EA;
         border-radius: 10%;
     }
-    #informacionGeneral h1{font-size: 2em;}
-    
-    #mariposaPequeña{
-        left:2.4%;
+
+    #informacionGeneral h1 {
+        font-size: 2em;
+    }
+
+    #mariposaPequeña {
+        left: 2.4%;
         top: 37%;
     }
-    .parteIzquierda{width: 100%; display: flex;flex-direction: column;}
-    .parteDerecha{display: none;}
-    .cards{margin-top: 22px;
-        gap:1em;
- 
-        
-        grid-template-columns: auto;}
-    .uno, .dos, .tres, .cuatro {font-size: x-large;}
-    
-    #Colaboradores p{width: 100%;margin: 0px 8px;}
-    #Colaboradores img{
-        width: 108px;}
-    .contenedorprincipal{transform: scale(0.8689); width: 100%;}
-    .partuna{width: 104%;}
-    .partdos{width: 70%;}
-    .parttres{width: 42%;}
-    #Logo-API {margin-left: 3em;}
-    .sponsorships{font-size: medium;}
-    .botonDocumentacion{font-size: medium;}
-    
-}
 
-@media (max-width: 527px){
-    
-    #mariposaGrande{
+    .parteIzquierda {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .parteDerecha {
         display: none;
     }
 
-    #mariposaPequeña{
-        left:2.4%;
+    .cards {
+        margin-top: 22px;
+        gap: 1em;
+
+
+        grid-template-columns: auto;
+    }
+
+    .uno,
+    .dos,
+    .tres,
+    .cuatro {
+        font-size: x-large;
+    }
+
+    #Colaboradores p {
+        width: 100%;
+        margin: 0px 8px;
+    }
+
+    #Colaboradores img {
+        width: 108px;
+    }
+
+    .contenedorprincipal {
+        transform: scale(0.8689);
+        width: 100%;
+    }
+
+    .partuna {
+        width: 104%;
+    }
+
+    .partdos {
+        width: 70%;
+    }
+
+    .parttres {
+        width: 42%;
+    }
+
+    #Logo-API {
+        margin-left: 3em;
+    }
+
+    .sponsorships {
+        font-size: medium;
+    }
+
+    .botonDocumentacion {
+        font-size: medium;
+    }
+
+}
+
+@media (max-width: 527px) {
+
+    #mariposaGrande {
+        display: none;
+    }
+
+    #mariposaPequeña {
+        left: 2.4%;
         top: 77%;
     }
-    .navegador{ display:none;} 
-    #informacionGeneral{
+
+    .navegador {
+        display: none;
+    }
+
+    #informacionGeneral {
         margin: 2px 4px;
-    } 
-    .menuicon{display: flex }
-    .menuicon img{
+    }
+
+    .menuicon {
+        display: flex
+    }
+
+    .menuicon img {
         /* Esto asegura que el contenedor tome solo el espacio que la imagen necesita */
         transform: scale(0.5);
         height: 66px;
@@ -535,17 +683,183 @@ footer .hearts > img {
         background-color: #E6E9EA;
         border-radius: 10%;
     }
-    .parteIzquierda{width: 100%; display: flex;flex-direction: column;align-items: center;}
-    .parteDerecha{display: none;}
-    .cards{grid-template-columns: auto}
-    #Logo-API {margin-left: 0.7em;}
-    #Colaboradores p{width: 91%; font-size: smaller;}
-    .contenedorprincipal{display:flex; flex-direction: column; width: 100%;height: max-content;}
-    .partuna,.partdos,.parttres{
+
+    .parteIzquierda {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .parteDerecha {
+        display: none;
+    }
+
+    .cards {
+        grid-template-columns: auto
+    }
+
+    #Logo-API {
+        margin-left: 0.7em;
+    }
+
+    #Colaboradores p {
+        width: 91%;
+        font-size: smaller;
+    }
+
+    .contenedorprincipal {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: max-content;
+    }
+
+    .partuna,
+    .partdos,
+    .parttres {
         justify-content: space-around;
         width: 100%;
         margin: 3px 2px;
     }
-    .botonDocumentacion{font-size: medium;}
+
+    .botonDocumentacion {
+        font-size: medium;
+    }
 }
+
 /* FIN RESPONSIVE */
+
+
+.modal {
+    display: flex;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #05050549;
+    z-index: 30;
+
+}
+
+.modal section {
+    width: 40%;
+    height: 100%;
+    background-color: #e6e9ea;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+
+}
+
+.encabezadoModal {
+    height: 87px;
+    display: flex;
+    background-color: #e6e9ea;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    margin-left: 1.2em;
+}
+
+.hidden {
+    display: none;
+}
+
+.show {
+    display: flex;
+}
+
+#closeModal{
+    width: auto;
+    margin-bottom:5px;
+    padding: 0%;
+    background-color: transparent;
+    border-style: none;
+    
+}
+.fa-solid , .fa-rectangle-xmark{
+    color:gray;
+    width: 58px;
+    font-size: x-large;
+    
+}
+.menuMobile{
+    display: flex;
+    flex-direction: column;
+    margin: 0.5em 0.9em;
+    gap:1em;
+}
+#menuMobile .section-githubModal p{
+    background-color: #E6E9EA;
+    border-radius: 4px;
+    color: #22292A;
+    font-weight: 600;
+    margin-top: 0;
+    width: 40px;
+    font-size: medium;
+
+
+}
+#menuMobile h6{
+    font-family: 'Krona One', sans-serif;
+    font-size: 12px;
+    color:#565656;
+    line-height: 14.4px;
+    letter-spacing: 0.5px;
+    height: 3vh;
+    padding: 6px 12px;
+    margin: 7px 9px;
+    border-radius: 6px;
+    align-content: center;
+
+    
+    
+}
+#menuMobile h6:hover{
+    cursor:pointer;
+    background-color: rgb(241, 241, 241);
+}
+.section-githubModal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    width: 78px;
+    height: 37px;
+    background-color: white;
+    align-items: center;
+    border-radius: 4px;
+    margin: 8px 20px;
+    padding: 0 0.2em;
+
+
+}
+.botonModo{
+    background-color: #FDFDFD;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 120px;
+    height: 35px;
+    border-radius: 4px;
+    
+    margin: 8px 20px;
+
+}
+
+.botonModo select{
+    color: black;
+    text-underline-position: under;
+    border-color: white;
+    border-width: thick;
+
+}
+
+#modoWeb2{
+    width: 25px;
+    height: 30px;
+}
+

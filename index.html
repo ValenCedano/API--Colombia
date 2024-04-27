@@ -24,6 +24,7 @@
   <meta property="og:url" content="https://api-colombia.com/"> 
   <meta property="og:site_name" content="API Colombia">
   <link rel="icon" href="assets/logo-dark.svg" type="image/png">
+  <script src="https://kit.fontawesome.com/ea43250ec2.js" crossorigin="anonymous"></script>
   <!-- 
   <meta property="og:image" content="https://apicolombia.azurewebsites.net/images/logo.png" />
   <link rel="stylesheet" href="css/hightlightjs-dark.css" />
@@ -79,6 +80,45 @@
     <h1>Explora <span id="yellow">Col</span><span id="blue">om</span><span id="red">bia</span> con API-Colombia </h1>
     <p>Un proyecto Open-source que ofrece acceso a datos <br> sobre su diversidad, todo a tu alcance.</p>
     <button class="botonDocumentacion"> Documentación</button>
+    <div class="modal hidden">
+      <section class="contenidoModal">
+          <div class="encabezadoModal">
+              <button id="closeModal"> <i class="fa-solid fa-rectangle-xmark"></i> </button>
+              <span> Menú </span>
+  
+          </div>
+  
+          <div class="cuerpoModal">
+              <div id="menuMobile">
+                
+                <h6> Documentación </h6>
+                <h6> Funcionalidades </h6>
+                <h6> Contribuidores</h6>
+                <div class="section-githubModal">
+                  <a href="#"> 
+                    <img id ="githubIcon2" src="/assets/icons/github-icon.svg" alt="logo-github">
+                  </a>
+                  <p> 219 </p>
+                </div>
+                <a href="#" class="botonModo"> 
+                  <img id="modoWeb2" src="/assets/icons/sun-icon.svg" alt="modo oscuro/claro"/>
+                  <select name="select">
+                    <option value="value1" selected>Claro</option>
+                    <option value="value2" > Oscuro</option>
+                  </select>
+                  
+                </a>
+              </div>
+             
+                      
+             
+              
+              
+          </div>
+  
+          
+      </section>
+    </div>
   </section>
   <section id="informacionAPIS">
     <div class="parteIzquierda">
@@ -258,6 +298,9 @@
     </div>
 
   </footer>
+
+  <script src="js/modal.js"></script>
+  <script src="js/scriptHome.js"></script>
 </body>
 
 </html>
