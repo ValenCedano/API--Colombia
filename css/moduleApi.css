@@ -11,6 +11,7 @@
   display: flex;
   border: 1px solid ;
   padding: 5px 7px;
+  width: 498px;
   border-radius: 7px 7px 0px 0px;
 }
 
@@ -46,13 +47,13 @@
   background-color: #22292a;
   padding: 10px;
   margin-top: 2em;
-  width: 480px;
+  width: 494px;
   height: 2.7em;
   border-bottom: 1px solid #ffffff;
 }
 
 .parteDerecha .block-api img {
-  width: 489px;
+  width: 494px;
   margin-top: -15px;
   object-fit: cover;
 }
