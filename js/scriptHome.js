@@ -7,11 +7,20 @@ const modale= document.getElementsByClassName("contenidoModal");
 const imagencambia = document.getElementById("Logo-API");
 const selectTheme = document.getElementById("select-theme");
 const mododod = document.getElementById("modoWeb2")
+const botonDocumentacion = document.getElementsByClassName("botonDocumentacion");
+console.log(botonDocumentacion);
+Array.from(botonDocumentacion).forEach(element => {
+    element.addEventListener("click", () => {
+        window.location.href = "https://github.com/Mteheran/api-colombia";
+    
+})});
 
+/*
 console.log(bodyContent);
 console.log(botonColor);
 console.log(imagencambia);
 console.log(modale)
+*/
 toggleModal(botonMenu,modal);
 toggleModal(closeButton,modal);
 

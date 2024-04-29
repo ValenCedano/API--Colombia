@@ -233,7 +233,7 @@
     font-size: 24px;
     line-height: 28.8px;
     margin-bottom: 0.7em;
-
+    color: var(--third-color);
 }
 
 .parteIzquierda p {
@@ -812,13 +812,17 @@ footer .hearts>img {
     margin: 7px 9px;
     border-radius: 6px;
     align-content: center;
+    text-decoration: none;
 
     
     
 }
+#menuMobile a{
+    text-decoration: none;
+}
 #menuMobile h6:hover{
-    cursor:pointer;
-    background-color: rgb(241, 241, 241);
+    cursor: pointer;
+    background-color: rgb(255 252 252);
 }
 .section-githubModal{
     display: flex;
@@ -868,7 +872,7 @@ footer .hearts>img {
 .dark .menu-desplegable h6, h1{
     color:#FDFDFD;
 }
-.dark .parteIzquierda > p{
+.dark .parteIzquierda > p, .dark .parteIzquierda h1{
     color:#FDFDFD
 }
 .dark #Colaboradores h1, .dark #Colaboradores p{
@@ -896,6 +900,7 @@ footer .hearts>img {
 }
 .dark #menuMobile h6{
     color: white;
+    background-color: #c9c4c482;
 }
 
 

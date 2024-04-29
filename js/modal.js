@@ -28,7 +28,7 @@ const toggleColor2 = (button,body,imagen,cuerpo,imagen2) =>{
     let dark = true;
     button.addEventListener("change", () =>{
         dark = !dark; 
-        cuerpo.classList.toggle("dark")
+        cuerpo.classList.toggle("dark");
         body.classList.toggle("dark");
 
         if (!dark) { 
