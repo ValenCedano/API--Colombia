@@ -11,7 +11,7 @@ const botonDocumentacion = document.getElementsByClassName("botonDocumentacion")
 console.log(botonDocumentacion);
 Array.from(botonDocumentacion).forEach(element => {
     element.addEventListener("click", () => {
-        window.location.href = "https://github.com/Mteheran/api-colombia";
+        window.location.href = "https://api-colombia.com/swagger/index.html";
     
 })});
 
