@@ -55,7 +55,7 @@
 .parteDerecha .block-api .text-api1,
 .parteDerecha .block-api .text-api2,
 .parteDerecha .block-api .text-api3 {
-  display: flex;
+  display: flex; 
 }
 
 .parteDerecha .block-api .text-api2 {
