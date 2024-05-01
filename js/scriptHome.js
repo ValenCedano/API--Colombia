@@ -8,7 +8,7 @@ const imagencambia = document.getElementById("Logo-API");
 const selectTheme = document.getElementById("select-theme");
 const mododod = document.getElementById("modoWeb2")
 const botonDocumentacion = document.getElementsByClassName("botonDocumentacion");
-console.log(botonDocumentacion);
+
 Array.from(botonDocumentacion).forEach(element => {
     element.addEventListener("click", () => {
         window.open("https://api-colombia.com/swagger/index.html",'_blank');
@@ -16,12 +16,7 @@ Array.from(botonDocumentacion).forEach(element => {
     
 })});
 
-/*
-console.log(bodyContent);
-console.log(botonColor);
-console.log(imagencambia);
-console.log(modale)
-*/
+
 toggleModal(botonMenu,modal);
 toggleModal(closeButton,modal);
 
