@@ -131,9 +131,6 @@
 
 }
 
-.section-iconosExtras:hover {
-    cursor: pointer;
-}
 
 #informacionGeneral {
     position: relative;
@@ -289,7 +286,7 @@
     grid-gap: 10px;
     font-size: 10px;
     color: #22292A;
-    margin-top: 10px;
+    margin-top: 1.4em;
     max-width: 100%;
 
 
@@ -633,7 +630,7 @@ footer .hearts>img {
 
     #mariposaGrande {
         width: 19vw;
-        left: 81%;
+        left: 80%;
         top: 8.5em;
     }
 
@@ -872,7 +869,7 @@ footer .hearts>img {
 }
 
 .modal section {
-    width: 40%;
+    width: 50vw;
     height: 100%;
     background-color: #e6e9ea;
     display: flex;
@@ -963,7 +960,7 @@ footer .hearts>img {
     background-color: white;
     align-items: center;
     border-radius: 4px;
-    margin: 8px 20px;
+    margin: 8px 11px;
     padding: 0 0.2em;
 
 
@@ -977,7 +974,7 @@ footer .hearts>img {
     height: 35px;
     border-radius: 4px;
     
-    margin: 8px 20px;
+    margin: 8px 11px;
 
 }
 
