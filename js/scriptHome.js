@@ -21,7 +21,7 @@ console.log(botonColor);
 console.log(imagencambia);
 console.log(modale)
 */
-toggleModal(botonMenu,modal);
+toggleModal(botonMenu,modal);¬
 toggleModal(closeButton,modal);
 
 toggleColor(botonColor,bodyContent,imagencambia);

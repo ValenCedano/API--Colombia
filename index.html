@@ -282,15 +282,32 @@
               <option value="v1">v1</option>
             </select>
             <select id="selectData">
+              <option value="Department">Department</option>
               <option value="President">President</option>
-              <option value="NaturalArea">ÁreaNatural</option>
+              <option value="NaturalArea">NaturalArea</option>
               <option value="CategoryNaturalArea">CategoryÁreaNatural</option>
               <option value="Map">Map</option>
+              <option value="Region">Región</option>
+              <option value="TouristicAttraction">Touristic</option>
+              <option value="CountryColombia">Country Colombia</option>
+              <option value="Invasivespecie">Invasive Specie</option>
+              <option value="NativeCommunity">Native Community</option>
+              <option value="Airport">Airport</option>
+              <option value="constitutionarticle">Constitution Article</option>
             </select>
             <button id="btnSolicitar">Solicitar</button>
           </div>
           <div class="block-api">
-            <img src="./assets/module-api.png" alt="" />
+            <div class="text-api1">
+              <span class="api" style="color: #C586C0; padding-left: 1em;">fetch</span><p class="parentesis-apertura" style="color: #D4D4D4; margin-left:.003em;">(</p><p class="url-api" style="color: #ce9178; margin-left:.003em;">'https://api-colombia.com/api/v1/</p><p class="endpoint" id="endpoint" style="color: #ce9178; margin-left:.003em;">Department'</p><p class="parentesis-cierre" style="color: #D4D4D4; margin-left:.003em;">)</p><br>
+            </div>
+            <div class="text-api2">
+              <span class="then" style="color: #D4D4D4;">.then (</span><p class="text" style="color: #9CDCFE;">response </p><p class="text2" style="margin-left: 1em;"> =></p><p class="text" style="color: #9CDCFE; margin-left: 1em;">response </p><p class="text3" style="margin-left: .3em;"> .</p><p class="text4" style="color: #C586C0; margin-left: .3em;">json</p><p class="text5">())</p>
+            </div>
+
+            <div class="text-api3">
+              <span class="then" style="color: #D4D4D4;">.then (</span><p class="text" style="color: #9CDCFE;">json</p><p class="text2" style="margin-left: 1em;"> =></p><p class="text" style="color: #9CDCFE; margin-left: 1em;">console </p><p class="text3" style="margin-left: .3em;"> .</p><p class="text4" style="color: #C586C0; margin-left: .3em;">log</p><p class="parentesis-apertura2" style="color: #FFFFFF; margin-left:.1em;">(</p><p class="text" style="color: #9CDCFE;">json </p><p class="parentesis-cierre2" style="color: #FFFFFF; margin-left:.003em;">)</p><p class="parentesis-cierre2" style="color: #FFFFFF; margin-left:.003em;">)</p>
+            </div>
           </div>
           <div class="api">
             <code class="resultado">

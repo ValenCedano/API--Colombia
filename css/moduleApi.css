@@ -52,10 +52,66 @@
   border-bottom: 1px solid #ffffff;
 }
 
-.parteDerecha .block-api img {
-  width: 494px;
-  margin-top: -15px;
-  object-fit: cover;
+.parteDerecha .block-api .text-api1,
+.parteDerecha .block-api .text-api2,
+.parteDerecha .block-api .text-api3 {
+  display: flex;
+}
+
+.parteDerecha .block-api .text-api2 {
+  margin-top: -1.2em;
+  margin-left: 2em;
+}
+
+.parteDerecha .block-api .text-api3 {
+  margin-top: -.4em;
+  margin-left: 2em;
+}
+
+.parteDerecha .block-api .api,
+.parteDerecha .block-api .parentesis-apertura,
+.parteDerecha .block-api .parentesis-apertura2,
+.parteDerecha .block-api .url-api,
+.parteDerecha .block-api .endpoint,
+.parteDerecha .block-api .parentesis-cierre,
+.parteDerecha .block-api .parentesis-cierre2 {
+  font-size: 9px;
+  color: #ffffff;
+  font-family: 'Krona One';
+  margin-left: 1em;
+}
+
+.parteDerecha .block-api .parentesis-apertura2,
+.parteDerecha .block-api .parentesis-cierre2 {
+  margin-top: 1.8em;
+  margin-left: .2em;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.parteDerecha .block-api .then {
+  font-size: 9px;
+  margin-top: 1.8em;
+  margin-left: 1.8em;
+}
+
+.parteDerecha .block-api .then,
+.parteDerecha .block-api .text,
+.parteDerecha .block-api .text2,
+.parteDerecha .block-api .text3,
+.parteDerecha .block-api .text4,
+.parteDerecha .block-api .text5 {
+  color: #ffffff;
+  font-family: 'Krona One';
+  font-size: 9px;
+}
+
+.parteDerecha .block-api .text,
+.parteDerecha .block-api .text2,
+.parteDerecha .block-api .text3,
+.parteDerecha .block-api .text4,
+.parteDerecha .block-api .text5 {
+  margin-top: 1.7em;
 }
 
 .parteDerecha .module-api .resultado {
